@@ -1,0 +1,58 @@
+.content {
+    min-height: calc(100vh - 80px); /* учитываем высоту хедера */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 40px 20px;
+    background: #ffffff;
+    text-align: center;
+}
+
+.content h1 {
+    font-size: 8rem;
+    margin: 0;
+    color: #309C54;
+    font-weight: 700;
+    letter-spacing: 0.1em;
+}
+
+.content p {
+    font-size: 1.5rem;
+    margin: 20px 0 40px;
+    color: #555;
+}
+
+.content button {
+    padding: 12px 28px;
+    font-size: 1rem;
+    font-weight: 600;
+    color: #fff;
+    background: #309C54;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background 0.2s ease-in-out, transform 0.2s;
+}
+
+.content button:hover {
+    background: #267a3f;
+    transform: translateY(-2px);
+}
+
+.content button:active {
+    background: #1e5c34;
+    transform: translateY(0);
+}
+
+@media (max-width: 600px) {
+    .content h1 {
+        font-size: 5rem;
+    }
+    .content p {
+        font-size: 1.2rem;
+    }
+    .content button {
+        width: 100%;
+    }
+}
