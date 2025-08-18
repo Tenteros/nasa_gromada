@@ -7,7 +7,7 @@ const NotFound = () => {
         <>
             <div className="content">
                 <h1>404</h1>
-                <p>Ой, здається такої сторінки не існує</p>
+                <p>Ой-ой, здається такої сторінки не існує</p>
                 <button onClick={() => window.location.href = '/'}>Повернутись на головну</button>
             </div>
         </>
